@@ -4,3 +4,35 @@
     padding: 0;
     box-sizing: border-box 
 }
+
+/* ? Utility */
+
+.color-icon {
+    color: #FF9614;
+}
+
+.color-back {
+    background-color: #FF9614;
+}
+
+li {
+    list-style: none;
+}
+
+a:not(.recipe-navfooter a) {
+    text-decoration: none;
+}
+
+.dash {
+    height: 4px;
+    width: 20%;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
