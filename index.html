@@ -14,48 +14,61 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header id="navbar">
         <a href="#" id="logo" class="color-icon">Giallo Booleano</a>
     </header>
     <main>
+        <!-- Sezione preparazione del Tiramisù -->
         <section class="section-preparation">
-            <div class="recipe-row">
+            <div class="recipe-row container">
                 <h2 class="recipe-category">Dolci e desserts</h2>
-                <div class="recipe-title">
+                <div class="recipe-title flex">
                     <h3 class="product-title">Tiramisù</h3>
-                    <span><i class="fa-solid fa-star color-icon"></i>4.6/5</span>
+                    <div class="recipe-ratings">
+                        <span><i class="fa-solid fa-star color-icon"></i>4.6/5</span>
                     <a href="#" class="installments color-back">rate</a>
+                    </div>
                 </div>
-                    <iframe class="recipe-video" width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=9oUtJ38opVooVn5-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <div class="recipe-info">
-                    <span class="calories">544 Kcal</span>
-                    <a href="#" class="info color-icon">+ info</a>
-                    <span><i class="fa-solid fa-carrot color-icon"></i>vegetariano</span>
-                </div>
-                <ul class="recipe-preparation">
-                    <li>
-                        <i class="fa-solid fa-blender color-icon"></i>
-                        <span class="preparation">Difficoltà: <b>Facile</b></span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-clock color-icon"></i>
-                        <span class="preparation">Tempo: <b>40 min</b></span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-chart-pie color-icon"></i>
-                        <span class="preparation">Porzione per: <b>8 persone</b></span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-euro-sign color-icon"></i>
-                        <span class="preparation">Costo: <b>Contenuto</b></span>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-thumbtack color-icon"></i>
-                        <span class="preparation"><b>Note</b>: +2 ore di riposo in frigo</span>
-                    </li>
-                </ul>
+                    
+
+                    <div class="container back-white">
+                        <iframe class="recipe-video" src="https://www.youtube.com/embed/JVT900H6s0g?si=9oUtJ38opVooVn5-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <div class="recipe-info">
+                            <div class="recipe-calories flex">
+                                <span class="calories">544 Kcal</span>
+                                <a href="#" class="info color-icon">+ info</a>
+                            </div>
+                            <span class="text-vegetarian"><i class="fa-solid fa-carrot icon-carrot"></i>vegetariano</span>
+                        </div>
+                        <ul class="recipe-preparation">
+                            <li>
+                                <i class="fa-solid fa-blender color-icon"></i>
+                                <span class="preparation">Difficoltà: <b>Facile</b></span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-clock color-icon"></i>
+                                <span class="preparation">Tempo: <b>40 min</b></span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-chart-pie color-icon"></i>
+                                <span class="preparation">Porzione per: <b>8 persone</b></span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-euro-sign color-icon"></i>
+                                <span class="preparation">Costo: <b>Contenuto</b></span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-thumbtack color-icon"></i>
+                                <span class="preparation"><b>Note</b>: +2 ore di riposo in frigo</span>
+                            </li>
+                        </ul>
+                    </div>
+                
+                
             </div>
         </section>
+        <!-- Social -->
         <nav class="social-networks">
             <ul class="recipe-social">
                 <li class="social"><a href="#"><i class="fa-brands fa-facebook color-blu"></i></a></li>
@@ -65,6 +78,7 @@
                 <li class="social"><a href="#"><i class="fa-brands fa-youtube color-red"></i></a></li>
             </ul>
         </nav>
+        <!-- Sezione presetazione del Tiramisù e dov'è nato -->
         <section class="section-presentation">
             <div class="recipe-presentation">
                 <h1 class="title-presentation">presentation</h1>
@@ -83,6 +97,7 @@
             </div>
         </section>    
     </main>
+    <!-- Footer -->
     <footer>
         <div class="recipe-footer">
             <span class="giallo-booleando">@ 2021 Giallo Booleano S.p.a.</span>

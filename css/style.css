@@ -12,6 +12,10 @@ body {
     background-color: #F6F5F3;
 }
 
+* {
+    font-size: 20px;
+}
+
 .color-icon {
     color: #FF9614;
 }
@@ -28,7 +32,7 @@ a:not(.recipe-navfooter a) {
     text-decoration: none;
 }
 
-a {
+a, span {
     display: inline-block;
 }
 
@@ -50,14 +54,21 @@ img {
     display: flex;
 }
 
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
 
 /* TODO: Inizio */
 
+/* Navbar */
 #navbar {
     text-align: center;
     background-color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
+/* Stile Logo */
 #logo {
     font-size: 50px;
     font-family: 'Nerko One', cursive;
@@ -65,3 +76,93 @@ img {
     padding: 5px 0;
 }
 
+/* Catogoria */
+.recipe-category {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #B0B0AF;
+}
+
+/* Contenitore Title */
+.recipe-title {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Tipo di Prodotto */
+.product-title {
+    font-size: 30px;
+    color: #4E3969;
+}
+
+/* Bottone Rate */
+.installments {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+/* Video */
+.recipe-video {
+    width: 100%;
+    height: 300px;
+}
+
+/* Contenitore */
+.back-white {
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+/* Contenitore Info */
+.recipe-info {
+    background-color: #F6F5F9;
+    margin: 35px 20px;
+    padding: 15px;
+}
+
+/* Contenitore Calorie */
+.recipe-calories {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #B0B0AF;
+}
+
+/* Calorie */
+.calories {
+    background-color: #4E3969;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Link Info */
+.info {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* Testo Vegetariano */
+.text-vegetarian {
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+/* Icona Carota */
+.icon-carrot {
+    margin-right: 5px;
+}
+
+/* Contenitore Preparazione */
+.recipe-preparation {
+    margin: 0px 20px;
+}
+
+/* Lista dentro */
+.recipe-preparation li {
+    margin-bottom: 15px;
+}
