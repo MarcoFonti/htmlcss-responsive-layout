@@ -7,6 +7,11 @@
 
 /* ? Utility */
 
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F6F5F3;
+}
+
 .color-icon {
     color: #FF9614;
 }
@@ -23,6 +28,10 @@ a:not(.recipe-navfooter a) {
     text-decoration: none;
 }
 
+a {
+    display: inline-block;
+}
+
 .dash {
     height: 4px;
     width: 20%;
@@ -36,3 +45,23 @@ img {
     max-width: 100%;
     display: block;
 }
+
+.flex {
+    display: flex;
+}
+
+
+/* TODO: Inizio */
+
+#navbar {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+#logo {
+    font-size: 50px;
+    font-family: 'Nerko One', cursive;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
