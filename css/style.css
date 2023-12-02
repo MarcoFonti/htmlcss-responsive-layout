@@ -115,12 +115,12 @@ img {
 .back-white {
     background-color: #FFFFFF;
     padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Contenitore Info */
 .recipe-info {
     background-color: #F6F5F9;
-    margin: 35px 20px;
     padding: 15px;
 }
 
@@ -135,7 +135,7 @@ img {
 .calories {
     background-color: #4E3969;
     color: #FFFFFF;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -157,12 +157,53 @@ img {
     margin-right: 5px;
 }
 
-/* Contenitore Preparazione */
+/* Recipiente Liste */
 .recipe-preparation {
-    margin: 0px 20px;
+    margin-top: 20px;
 }
 
 /* Lista dentro */
 .recipe-preparation li {
     margin-bottom: 15px;
+}
+
+/* Padding 20px */
+.pd-20 {
+    padding: 20px;
+}
+
+/* Contenitore Social */
+.social-networks {
+    padding: 0px 30px;
+}
+
+/* Lista Social */
+.social-networks ul {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Bottone Social */
+.social {
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* Colore Social */
+
+.color-blu {
+    color: #1A77F3;
+}
+
+.color-sky-blu {
+    color: #009EFF;
+}
+
+.color-purple {
+    color: #E177A9;
+}
+
+.color-red {
+    color: #E83B34;
 }
