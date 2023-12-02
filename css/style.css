@@ -37,12 +37,14 @@ a, span {
 }
 
 .dash {
-    height: 4px;
-    width: 20%;
+    height: 3px;
+    width: 18%;
+    border-radius: 2px;
+    margin: 15px 0px;
 }
 
 p {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 img {
@@ -55,7 +57,7 @@ img {
 }
 
 .container {
-    width: 500px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -175,6 +177,7 @@ img {
 /* Contenitore Social */
 .social-networks {
     padding: 0px 30px;
+    margin-top: 30px;
 }
 
 /* Lista Social */
@@ -206,3 +209,26 @@ img {
 .color-red {
     color: #E83B34;
 }
+
+/* Sezione Presentazione prodotto */
+.section-presentation {
+    margin-top: 40px;
+}
+
+/* Titolo della Sezione Presentazione */
+.title-presentation{
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+/* Immagine Tiramisù */
+.recipe-image {
+    width: 70%;
+    margin: 15px auto;
+}
+
+/* Spazio tra le Linee del Paragrafo */
+.recipe-paragraph {
+    line-height: 1.5;
+}
+
