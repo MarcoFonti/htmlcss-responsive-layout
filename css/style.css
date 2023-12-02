@@ -98,6 +98,12 @@ img {
     color: #4E3969;
 }
 
+/* Titolo Trasparente */
+.title-transparent {
+    display: none;
+    font-size: 30px;
+}
+
 /* Bottone Rate */
 .installments {
     text-transform: uppercase;
@@ -186,7 +192,7 @@ img {
     align-items: center;
 }
 
-/* Bottone Social */
+/* Bottoni Social */
 .social {
     background-color: #FFFFFF;
     padding: 10px 15px;
@@ -210,13 +216,19 @@ img {
     color: #E83B34;
 }
 
+/* Banner */
+.banner-advertising {
+    display: none;
+    margin-top: 40px;
+}
+
 /* Sezione Presentazione prodotto */
 .section-presentation {
     margin-top: 40px;
 }
 
 /* Titolo della Sezione Presentazione */
-.title-presentation{
+.title-presentation {
     text-transform: uppercase;
     font-size: 35px;
 }
@@ -236,7 +248,7 @@ img {
 footer {
     background-color: #7C69A4;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 30px 0px;
 }
 
 /* Recipiente del Footer */
@@ -257,4 +269,63 @@ footer {
 /* Link dentro */
 .recipe-navfooter a {
     color: #EEECF3;
+}
+
+
+/* TODO: Media Query */
+
+@media screen and (min-width:768px)  {
+    /* Navbar */
+    #navbar {
+        text-align: start;
+        padding-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* Titolo Trasparente */
+    .title-transparent {
+        display: inline-block;
+    }
+
+    /* Video */
+    .recipe-video{
+        height: 400px;
+    }
+
+    /* Recipiente Liste */
+    .recipe-preparation {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    /* Liste dentro */
+    .recipe-preparation li {
+        margin-right: 20px;
+        line-height: 2;
+    }
+
+    /* Bottoni Social */
+    .social {
+        padding: 10px 50px;
+        border-radius: 20px;
+    }
+
+    /* Contenitore Social */
+    .social-networks {
+        padding: 0;
+    }
+
+    /* Banner */
+    .banner-advertising {
+        display: inline-block;
+    }
+
+    /* Immagine Tiramisù */
+    .recipe-image {
+        float: left;
+        margin: 0;
+        width: 50%;
+        margin-right: 10px;
+    }
 }
