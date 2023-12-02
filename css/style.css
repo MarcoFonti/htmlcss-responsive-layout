@@ -7,35 +7,43 @@
 
 /* ? Utility */
 
+/* Carattere e colore Sfondo*/
 body {
     font-family: 'Helvetica Neue', sans-serif;
     background-color: #F6F5F3;
 }
 
+/* Tutto a 20px */
 * {
     font-size: 20px;
 }
 
+/* Colore Icone */
 .color-icon {
     color: #FF9614;
 }
 
+/* Sfondo Arangio */
 .color-back {
     background-color: #FF9614;
 }
 
+/* Liste senza Punti */
 li {
     list-style: none;
 }
 
+/* Link senza Linea tranne */
 a:not(.recipe-navfooter a) {
     text-decoration: none;
 }
 
+/* Link e Span */
 a, span {
     display: inline-block;
 }
 
+/* Linea */
 .dash {
     height: 3px;
     width: 18%;
@@ -43,19 +51,18 @@ a, span {
     margin: 15px 0px;
 }
 
-p {
-    margin-bottom: 50px;
-}
-
+/* Immagini */
 img {
     max-width: 100%;
     display: block;
 }
 
+/* Contenitore flex */
 .flex {
     display: flex;
 }
 
+/* Dimensioni Contenitore Elementi */
 .container {
     width: 90%;
     margin: 0 auto;
@@ -119,7 +126,7 @@ img {
     height: 300px;
 }
 
-/* Contenitore */
+/* Contenitore Bianco */
 .back-white {
     background-color: #FFFFFF;
     padding-bottom: 30px;
@@ -192,6 +199,11 @@ img {
     align-items: center;
 }
 
+/* Testo nei Social */
+.text-icon {
+    display: none;
+}
+
 /* Bottoni Social */
 .social {
     background-color: #FFFFFF;
@@ -225,6 +237,14 @@ img {
 /* Sezione Presentazione prodotto */
 .section-presentation {
     margin-top: 40px;
+}
+
+/* Clear */
+.clear::after {
+    clear: both;
+    content: ' ';
+    display: table;
+    margin-bottom: 50px;
 }
 
 /* Titolo della Sezione Presentazione */
@@ -272,9 +292,9 @@ footer {
 }
 
 
-/* TODO: Media Query */
+/* TODO: Media Query 768 */
 
-@media screen and (min-width:768px)  {
+@media screen and (min-width:768px) {
     /* Navbar */
     #navbar {
         text-align: start;
@@ -318,7 +338,8 @@ footer {
 
     /* Banner */
     .banner-advertising {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
     }
 
     /* Immagine Tiramisù */
@@ -327,5 +348,74 @@ footer {
         margin: 0;
         width: 50%;
         margin-right: 10px;
+    }
+}
+
+
+
+/* TODO: Media Query 992 */
+
+@media screen and (min-width:992px) {
+    /* Tutti gli Elementi 16px */
+    * {
+        font-size: 16px;
+    }
+
+    /*Contenitore Bianco */
+    .back-white {
+        display: flex;
+        padding-bottom: 0px;
+    }
+
+    /* Video */
+    .recipe-video {
+        width: 65%;
+    }
+
+    /* Contenitore 35% */
+    .w-35 {
+        width: 35%;
+    }
+
+    /* Testo nei Social */
+    .text-icon {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 4px;
+    }
+
+    /* Bottoni Social */
+    .social {
+        background-color: #FFFFFF;
+        padding: 10px 30px;
+        border-radius: 20px;
+    }
+
+    /* Lista dentro */
+    .recipe-preparation li {
+        width: 100%;
+        margin-right: 0px;
+        line-height: 1;
+    }
+
+    /* Immagine Tiramisù */
+    .recipe-image {
+        width: 35%;
+    }
+
+    /* Elementi dentro al footer */
+    .footer-between * {
+        font-size: 14px;
+    }
+
+    /* Recipiente del Footer */
+    .recipe-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Recipiente info Booleando */
+    .recipe-booleando {
+        text-align: start;
     }
 }
