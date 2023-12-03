@@ -120,10 +120,16 @@ img {
     margin-left: 5px;
 }
 
-/* Video */
+/* Recipiente Video */
 .recipe-video {
     width: 100%;
     height: 300px;
+}
+
+/* Video */
+iframe {
+    height: 100%;
+    width: 100%;
 }
 
 /* Contenitore Bianco */
